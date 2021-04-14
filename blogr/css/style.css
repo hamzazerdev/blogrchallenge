@@ -1,0 +1,872 @@
+body {
+  margin: 0px;
+  background-color: #ebe8e8;
+}
+
+.banner {
+  width: 100%;
+  height: 70vh;
+  background-image: linear-gradient(-60deg, #ff4457 0%, #ff957d 100%);
+  border-radius: 0px 0px 0px 100px;
+}
+
+.banner .inner-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0px 0px 0px 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/bg-pattern-intro.svg);
+  background-size: 230vw;
+  background-repeat: no-repeat;
+  background-position: -55vh;
+}
+
+.banner .inner-banner .navbar-title-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 20%;
+  margin-top: 20px;
+}
+
+.banner .inner-banner .navbar-title-login .title {
+  width: 15%;
+}
+
+.banner .inner-banner .navbar-title-login .title h5 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 2.9vw;
+}
+
+.banner .inner-banner .navbar-title-login .burger {
+  display: none;
+}
+
+.banner .inner-banner .navbar-title-login .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 50%;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav .inner-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  height: 10%;
+  border-radius: 10px;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav .inner-nav h5 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 1vw;
+  margin: 4px;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav .inner-nav img {
+  margin: 5px;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav .inner-nav:hover {
+  background-color: #f2f2f254;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav #inner1 {
+  position: relative;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav #inner1 .arrow {
+  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav #inner1 .arrow1 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav #inner1 .pop {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  background-color: white;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 0px;
+  -webkit-transition-duration: 0.03s;
+          transition-duration: 0.03s;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav #inner1 .pop .apop {
+  font-family: 'Overpass', sans-serif;
+  color: transparent;
+  font-size: 0vw;
+  margin: 0px;
+  text-decoration: none;
+  margin-left: 10px;
+  text-align: left;
+  display: none;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav #inner1 .pop .apop:hover {
+  font-weight: bold;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav #inner1 .pop1 {
+  position: absolute;
+  top: 25px;
+  right: -25%;
+  background-color: white;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 150%;
+  height: 15vh;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav #inner1 .pop1 .apop1 {
+  font-family: 'Overpass', sans-serif;
+  color: black;
+  font-size: 1vw;
+  margin: 10px;
+  text-decoration: none;
+  margin-left: 10px;
+  text-align: left;
+  display: block;
+}
+
+.banner .inner-banner .navbar-title-login .navbar .nav #inner1 .pop1 .apop1:hover {
+  font-weight: bold;
+}
+
+.banner .inner-banner .navbar-title-login .login-signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 20%;
+  margin-left: 9%;
+}
+
+.banner .inner-banner .navbar-title-login .login-signup .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  cursor: pointer;
+}
+
+.banner .inner-banner .navbar-title-login .login-signup .login h5 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 1vw;
+  margin: 10px;
+}
+
+.banner .inner-banner .navbar-title-login .login-signup .signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  margin-left: 10%;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.banner .inner-banner .navbar-title-login .login-signup .signup h5 {
+  font-family: 'Overpass', sans-serif;
+  color: #ff545d;
+  font-size: 1vw;
+  margin: 10px;
+}
+
+.banner .inner-banner .navbar-title-login .login-signup .signup:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: #fc99a1;
+}
+
+.banner .inner-banner .navbar-title-login .login-signup .signup:hover h5 {
+  color: white;
+}
+
+.banner .inner-banner .quotes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 30%;
+  margin-top: 5%;
+}
+
+.banner .inner-banner .quotes .quote1m {
+  display: none;
+}
+
+.banner .inner-banner .quotes h1 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 4vw;
+  margin: 5px;
+}
+
+.banner .inner-banner .quotes h5 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 1.1vw;
+  margin: 5px;
+}
+
+.banner .inner-banner .start-learn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 25%;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  margin: 2%;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .start h5 {
+  font-family: 'Overpass', sans-serif;
+  color: #ff545d;
+  font-size: 1vw;
+  margin: 10px;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .start:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: #fc99a1;
+  border: 1px solid #fc99a1;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .start:hover h5 {
+  color: white;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .learn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 2%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .learn h5 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 1vw;
+  margin: 10px;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .learn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: white;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .learn:hover h5 {
+  color: #ff4457;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/illustration-editor-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: 132%;
+  margin-top: 40px;
+}
+
+.intro .intro-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 20%;
+  margin-top: 20px;
+}
+
+.intro .intro-title h1 {
+  font-family: 'Overpass', sans-serif;
+  color: #1f3f5b;
+  font-size: 3vw;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.intro .intro-img {
+  display: none;
+}
+
+.intro .container-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.intro .container-txt .txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.intro .container-txt .txt .txt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 15%;
+  padding-right: 0%;
+}
+
+.intro .container-txt .txt .txt1 .tit1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.intro .container-txt .txt .txt1 .tit1 h5 {
+  font-family: 'Overpass', sans-serif;
+  color: #1f3f5b;
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+
+.intro .container-txt .txt .txt1 p {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+  color: #1f3f5b;
+  font-size: 1.3vw;
+  margin-bottom: 10px;
+}
+
+.state {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #393a58;
+  background-image: url(../images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: -70% 70%;
+  width: 100%;
+  height: 50vh;
+  border-radius: 0px 70px 0px;
+}
+
+.state .state-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 150%;
+}
+
+.state .state-img img {
+  height: 100%;
+}
+
+.state .state-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.state .state-txt .state-txt-tit1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 70%;
+  height: 20%;
+}
+
+.state .state-txt .state-txt-tit1 h5 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+
+.state .state-txt .state-txt-txt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 70%;
+}
+
+.state .state-txt .state-txt-txt1 p {
+  font-family: 'Overpass', sans-serif;
+  color: #c8c8cb;
+  font-size: 1.1vw;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.free {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.free .free-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%;
+  background-image: url(../images/illustration-laptop-desktop.svg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 130%;
+}
+
+.free .free-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.free .free-txt .inner-free-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+}
+
+.free .free-txt .inner-free-txt .inner-free-txt-tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80%;
+}
+
+.free .free-txt .inner-free-txt .inner-free-txt-tit h5 {
+  font-family: 'Overpass', sans-serif;
+  color: #393a58;
+  font-size: 2vw;
+  margin-bottom: 10px;
+}
+
+.free .free-txt .inner-free-txt p {
+  font-family: 'Overpass', sans-serif;
+  color: #393a58;
+  font-size: 1.1vw;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  line-height: 25px;
+  margin-left: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 50vh;
+  background-color: #25252d;
+  border-radius: 0px 70px 0px 0px;
+}
+
+footer .footer-tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+  height: 100%;
+}
+
+footer .footer-tit h4 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 2.9vw;
+  margin-top: 50px;
+}
+
+footer .footer-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+  height: 100%;
+}
+
+footer .footer-section h4 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 1.1vw;
+  margin-top: 70px;
+  width: 30%;
+  text-align: left;
+}
+
+footer .footer-section a {
+  font-family: 'Overpass', sans-serif;
+  color: #c8c8cb;
+  font-size: 0.8vw;
+  margin-top: 20px;
+  text-decoration: none;
+  width: 30%;
+  text-align: left;
+}
+
+footer .footer-section a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */

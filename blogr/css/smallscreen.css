@@ -1,0 +1,1156 @@
+body {
+  margin: 0px;
+  background-color: #ebe8e8;
+}
+
+.banner {
+  width: 100%;
+  height: 85vh;
+  background-image: linear-gradient(-60deg, #ff4457 0%, #ff957d 100%);
+  border-radius: 0px 0px 0px 100px;
+}
+
+.banner .inner-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 0px 0px 0px 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/bg-pattern-intro.svg);
+  background-size: 330vw;
+  background-repeat: no-repeat;
+  background-position: -50vh -70vw;
+}
+
+.banner .inner-banner .navbar-title-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 20%;
+  margin-top: 20px;
+}
+
+.banner .inner-banner .navbar-title-login .title {
+  width: 50%;
+}
+
+.banner .inner-banner .navbar-title-login .title h5 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 9vw;
+}
+
+.banner .inner-banner .navbar-title-login .burger {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+}
+
+.banner .inner-banner .navbar-title-login .burger .inner-burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20%;
+}
+
+.banner .inner-banner .navbar-title-login .burger .inner-burger .line {
+  width: 100%;
+  height: 0.4px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 1px;
+  margin: 2px;
+  margin-top: 4px;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 70px;
+  width: 80vw;
+  height: 0px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .nav-burger {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .nav-burger .product-burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .nav-burger .product-burger .inner-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .nav-burger .product-burger .inner-product h5 {
+  font-family: 'Overpass', sans-serif;
+  color: #1f3f5b;
+  font-weight: 300;
+  font-size: 5vw;
+  margin: 25px;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .nav-burger .product-burger .roll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f2f2f2f2;
+  width: 70vw;
+  border-radius: 10px;
+  height: 0px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .nav-burger .product-burger .roll a {
+  display: none;
+  font-family: 'Overpass', sans-serif;
+  color: #1f3f5b;
+  font-weight: 300;
+  font-size: 4vw;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .nav-burger .product-burger .roll a:hover {
+  text-decoration: underline;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .separeur {
+  display: none;
+  width: 80%;
+  height: 1px;
+  background-color: #d6d5d5f2;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .login-signup-burger {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .login-signup-burger .login-burger {
+  width: 50%;
+  height: auto;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .login-signup-burger .login-burger h5 {
+  font-family: 'Overpass', sans-serif;
+  color: #1f3f5b;
+  font-weight: 300;
+  font-size: 5vw;
+  margin: 15px;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .login-signup-burger .signup-burger {
+  margin-top: 10px;
+  width: 50%;
+  height: auto;
+  background-color: #1f3f5b;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50px;
+  background-image: linear-gradient(-60deg, #ff4457 0%, #ff957d 100%);
+}
+
+.banner .inner-banner .navbar-title-login .burger .popupburger .login-signup-burger .signup-burger h5 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 5vw;
+  margin: 15px;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 70px;
+  width: 80vw;
+  height: 75vh;
+  -webkit-box-shadow: 0px 15px 13px 14px #35353528;
+          box-shadow: 0px 15px 13px 14px #35353528;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .nav-burger1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .nav-burger1 .product-burger {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .nav-burger1 .product-burger .inner-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .nav-burger1 .product-burger .inner-product h5 {
+  font-family: 'Overpass', sans-serif;
+  color: #1f3f5b;
+  font-weight: 300;
+  font-size: 5vw;
+  margin: 25px;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .nav-burger1 .product-burger .inner-product .ar {
+  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .nav-burger1 .product-burger .inner-product .arrow-connect-activated {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .nav-burger1 .product-burger .roll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f2f2f2f2;
+  width: 70vw;
+  border-radius: 10px;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .nav-burger1 .product-burger .roll a {
+  font-family: 'Overpass', sans-serif;
+  color: #1f3f5b;
+  font-weight: 300;
+  font-size: 4vw;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .nav-burger1 .product-burger .roll a:hover {
+  text-decoration: underline;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .nav-burger1 .product-burger .roll-activated {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f2f2f2f2;
+  width: 70vw;
+  border-radius: 10px;
+  height: 100px;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .nav-burger1 .product-burger .roll-activated a {
+  display: block;
+  font-family: 'Overpass', sans-serif;
+  color: #1f3f5b;
+  font-weight: 300;
+  font-size: 4vw;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .nav-burger1 .product-burger .roll-activated a:hover {
+  text-decoration: underline;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .separeur {
+  display: block;
+  width: 80%;
+  height: 1px;
+  background-color: #d6d5d5f2;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .login-signup-burger1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .login-signup-burger1 .login-burger {
+  width: 50%;
+  height: auto;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .login-signup-burger1 .login-burger h5 {
+  font-family: 'Overpass', sans-serif;
+  color: #1f3f5b;
+  font-weight: 300;
+  font-size: 5vw;
+  margin: 15px;
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .login-signup-burger1 .signup-burger {
+  margin-top: 10px;
+  width: 50%;
+  height: auto;
+  background-color: #1f3f5b;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50px;
+  background-image: linear-gradient(-60deg, #ff4457 0%, #ff957d 100%);
+}
+
+.banner .inner-banner .navbar-title-login .burger .popmenu .login-signup-burger1 .signup-burger h5 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 5vw;
+  margin: 15px;
+}
+
+.banner .inner-banner .navbar-title-login .navbar {
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 50%;
+}
+
+.banner .inner-banner .navbar-title-login .login-signup {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 20%;
+  margin-left: 9%;
+}
+
+.banner .inner-banner .quotes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 30%;
+  margin-top: 20%;
+}
+
+.banner .inner-banner .quotes .quote1m {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 9vw;
+  margin: 5px;
+  font-weight: 300;
+}
+
+.banner .inner-banner .quotes .quote1 {
+  display: none;
+}
+
+.banner .inner-banner .quotes h5 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 4vw;
+  margin: 5px;
+  width: 80%;
+}
+
+.banner .inner-banner .start-learn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 80%;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  margin: 2%;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .start h5 {
+  font-family: 'Overpass', sans-serif;
+  color: #ff545d;
+  font-size: 4vw;
+  margin: 10px;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .start:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: #fc99a1;
+  border: 1px solid #fc99a1;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .start:hover h5 {
+  color: white;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .learn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 2%;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .learn h5 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 4vw;
+  margin: 10px;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .learn:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: white;
+}
+
+.banner .inner-banner .start-learn .inner-start-learn .learn:hover h5 {
+  color: #ff4457;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.intro .intro-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 20px;
+}
+
+.intro .intro-title h1 {
+  font-family: 'Overpass', sans-serif;
+  color: #1f3f5b;
+  font-size: 7vw;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.intro .intro-img {
+  width: 100%;
+}
+
+.intro .intro-img img {
+  width: 100%;
+}
+
+.intro .container-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.intro .container-txt .txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-right: 0px;
+}
+
+.intro .container-txt .txt .txt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 0px;
+}
+
+.intro .container-txt .txt .txt1 .tit1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.intro .container-txt .txt .txt1 .tit1 h5 {
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+  color: #1f3f5b;
+  font-size: 7vw;
+  margin-bottom: 10px;
+  margin-right: 0px;
+}
+
+.intro .container-txt .txt .txt1 p {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-right: 0px;
+  color: #1f3f5b;
+  font-size: 5vw;
+  margin-bottom: 10px;
+}
+
+.state {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #393a58;
+  background-image: url(../images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: 50% -700%;
+  width: 100%;
+  height: 90vh;
+  border-radius: 0px 70px 0px;
+  margin-top: 200px;
+}
+
+.state .state-img {
+  position: absolute;
+  top: -33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 68%;
+}
+
+.state .state-img img {
+  height: auto;
+  width: 100%;
+}
+
+.state .state-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  margin-top: 100px;
+}
+
+.state .state-txt .state-txt-tit1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.state .state-txt .state-txt-tit1 h5 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 7vw;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.state .state-txt .state-txt-txt1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 90%;
+}
+
+.state .state-txt .state-txt-txt1 p {
+  font-family: 'Overpass', sans-serif;
+  color: #c8c8cb;
+  font-size: 5vw;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+.free {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 180vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.free .free-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 40%;
+  background-image: url(../images/illustration-laptop-mobile.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 120%;
+}
+
+.free .free-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.free .free-txt .inner-free-txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+}
+
+.free .free-txt .inner-free-txt .inner-free-txt-tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.free .free-txt .inner-free-txt .inner-free-txt-tit h5 {
+  font-family: 'Overpass', sans-serif;
+  color: #393a58;
+  font-size: 7vw;
+  margin-bottom: 10px;
+}
+
+.free .free-txt .inner-free-txt p {
+  font-family: 'Overpass', sans-serif;
+  color: #393a58;
+  font-size: 5vw;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  line-height: 25px;
+  margin-left: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding-bottom: 50px;
+  background-color: #25252d;
+  border-radius: 0px 70px 0px 0px;
+}
+
+footer .footer-tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+footer .footer-tit h4 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 7vw;
+  margin-top: 50px;
+}
+
+footer .footer-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+footer .footer-section h4 {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 5vw;
+  margin-top: 70px;
+  width: 30%;
+  text-align: center;
+}
+
+footer .footer-section a {
+  font-family: 'Overpass', sans-serif;
+  color: #c8c8cb;
+  font-size: 4vw;
+  margin-top: 20px;
+  text-decoration: none;
+  width: 30%;
+  text-align: center;
+}
+
+footer .footer-section a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=smallscreen.css.map */
